@@ -12,7 +12,7 @@ import java.util.Date;
 @Service
 public class JwtUtil {
 
-    static final String SECRET = "tuClaveSecreta";
+    static final String SECRET = "tuContraseña";
     private static final Algorithm ALGORITHM = Algorithm.HMAC256(SECRET);
     private static final long EXPIRATION_TIME = 86400000; // 1 día en milisegundos
 
